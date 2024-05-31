@@ -106,6 +106,11 @@
     margin-top: 30px;
     height: 300px; 
     color: #ebe3e3;
+    min-height: auto;
+    min-width: auto;
+    flex-direction: column;
+    margin-bottom: 150px;
+
 
 
   }
@@ -114,6 +119,10 @@
     margin-top: 30px;
     height: 100px; 
     color: #ebe3e3;;
+    flex-direction: column;
+    min-height: auto;
+    min-width: auto;
+
 
 
   }
@@ -121,7 +130,12 @@
     display: flex;  
     justify-content: space-between;
     background: none;
-
+    flex-direction: column;
+    margin-top: 30px;
+    height: 50px;
+    padding: 16px;
+    min-height: auto;
+    min-width: auto;
   }
   
 
@@ -134,6 +148,8 @@
     margin-top: 30px;
     height: 50px;
     color: #ebe3e3;;
+    min-height: auto;
+    min-width: auto;
 
  
   }
@@ -141,14 +157,18 @@
     padding: 16px;
     margin-top: 30px;
     height: 600px;
-    color: #ebe3e3;;
+    color: #ebe3e3;
+    min-height: auto;
+    min-width: auto;
 
   }
   .fifth {
     padding: 16px;
     margin-top: 30px;
     height: 300px;
-    color: #ebe3e3;;
+    color: #ebe3e3;
+    min-height: auto;
+    min-width: auto;
 
   }
   .sixth {
@@ -157,6 +177,8 @@
     align-items: center;
     min-height: 100vh;
     text-align: center;
+    min-height: auto;
+    min-width: auto;
   }
   .visit-btn {
     border: none;
@@ -191,6 +213,8 @@ body {
     text-decoration: white;
     font-family: Songti CS, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(2, 2, 2);
+    flex-direction: column;
+    height: 100vh;
 
     
 }
